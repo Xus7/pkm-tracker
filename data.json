@@ -1,32 +1,96 @@
 [
   {
-    "id": "ruta-29",
-    "nombre": "📍 Ruta 29",
+    "id": "pueblo-primavera",
+    "nombre": "🏡 Pueblo Primavera",
     "guia": [
-      "Tu madre te dará el Pokégear.",
-      "Eco/Lira te darán 5 Poké Balls.",
-      "Busca a Tosca los Martes (objeto Pañuelo Seda)."
+      "¡El inicio de la aventura! Ve al laboratorio del Prof. Elm para elegir vuestro primer compañero.",
+      "**Consejo:** Chikorita es un reto (difícil), Cyndaquil es equilibrado y Totodile es muy fuerte al principio.",
+      "Hablad con vuestra madre después de recibir el Pokémon para que os guarde parte del dinero que ganéis. ¡A veces os comprará objetos raros con esos ahorros!",
+      "Revisad el PC de vuestra habitación para sacar una **Poción** gratis.",
+      "Pulsad 'A' frente a vuestro Pokémon para ver cómo se siente. ¡A los niños les encanta ver sus reacciones!"
+    ],
+    "pokemons": []
+  },
+  {
+    "id": "ruta-29",
+    "nombre": "🌿 Ruta 29",
+    "guia": [
+      "Esta ruta conecta el pueblo con Ciudad Cerezo.",
+      "**Mecánica de captura:** No intentéis lanzar la Poké Ball nada más ver al Pokémon. Primero hay que quitarle vida (que la barra esté en amarillo o rojo) para que sea más fácil.",
+      "**Día y Noche:** Los Pokémon cambian según la hora de la vida real. Pidgey sale de día y Hoothoot de noche.",
+      "Buscad a **Tosca** los Martes. Es una chica que aparece cerca de la hierba y os regalará un **Pañuelo Seda** (potencia ataques tipo Normal)."
     ],
     "pokemons": [
-      { "id": "pidgey_29", "nombre": "Pidgey", "tipo": "normal", "captura": "Hierba (Día/Mañana)." },
-      { "id": "sentret_29", "nombre": "Sentret", "tipo": "normal", "captura": "Hierba (Día/Mañana)." },
-      { "id": "hoothoot_29", "nombre": "Hoothoot", "tipo": "normal", "captura": "Hierba (Noche)." },
-      { "id": "rattata_29", "nombre": "Rattata", "tipo": "normal", "captura": "Hierba (Todo el día)." }
+      { 
+        "id": "pidgey_r29", 
+        "nombre": "Pidgey", 
+        "tipo": "normal/volador", 
+        "captura": "Hierba alta (Mañana/Día). Usa Poké Ball común. No requiere habilidades." 
+      },
+      { 
+        "id": "rattata_r29", 
+        "nombre": "Rattata", 
+        "tipo": "normal", 
+        "captura": "Hierba alta (Todo el día). Usa Poké Ball común. ¡Es muy rápido!" 
+      },
+      { 
+        "id": "sentret_r29", 
+        "nombre": "Sentret", 
+        "tipo": "normal", 
+        "captura": "Hierba alta (Mañana/Día). Poké Ball común. Es el Pokémon ideal para aprender a usar 'Corte' más adelante." 
+      },
+      { 
+        "id": "hoothoot_r29", 
+        "nombre": "Hoothoot", 
+        "tipo": "normal/volador", 
+        "captura": "Hierba alta (Noche). Poké Ball común. Evoluciona a Noctowl, un búho muy protector." 
+      }
     ]
   },
   {
-    "id": "ruta-30",
-    "nombre": "📍 Ruta 30",
+    "id": "ciudad-cerezo",
+    "nombre": "🍒 Ciudad Cerezo",
     "guia": [
-      "Sr. Pokémon te da el Huevo Misterioso.",
-      "El Prof. Oak te entrega la Pokédex.",
-      "Recoge la Cesta de Bayas en la casa."
+      "Hablad con el anciano de la entrada. Os dará un tour por la ciudad y, lo más importante: ¡las **Deportivas**! Ahora podréis correr manteniendo el botón B.",
+      "En el Centro Pokémon podéis curar a vuestro equipo gratis. Enseñadle a vuestro hijo que la enfermera Joy es vuestra mejor aliada.",
+      "No hay Pokémon salvajes aquí todavía (hasta que tengáis la caña de pescar), pero es un buen lugar para guardar la partida."
+    ],
+    "pokemons": []
+  },
+  {
+    "id": "ruta-30",
+    "nombre": "🌳 Ruta 30",
+    "guia": [
+      "Aquí vive el Sr. Pokémon. Os entregará el **Huevo Misterioso** que debéis llevar al Prof. Elm.",
+      "El Prof. Oak aparecerá y os dará vuestra **Pokédex**. ¡Aquí empieza el reto de capturarlos a todos!",
+      "**Bayas:** Encontraréis arbustos con frutos. Recogedlos para curar estados (como el veneno) sin gastar dinero.",
+      "En esta ruta hay un bloqueo: no podréis pasar a la Ruta 31 hasta que hayáis vuelto al laboratorio y derrotado al rival (el chico pelirrojo)."
     ],
     "pokemons": [
-      { "id": "caterpie_30", "nombre": "Caterpie", "tipo": "bicho", "captura": "Hierba (Mañana/Día). Exclusivo HG." },
-      { "id": "metapod_30", "nombre": "Metapod", "evol": "Caterpie", "tipo": "bicho", "captura": "Hierba (Mañana/Día). Exclusivo HG." },
-      { "id": "spinarak_30", "nombre": "Spinarak", "tipo": "veneno", "captura": "Hierba (Noche). Exclusivo HG." },
-      { "id": "weedle_30", "nombre": "Weedle", "tipo": "veneno", "captura": "Transferencia o Parque Nacional (Sino, no sale en HG)." }
+      { 
+        "id": "caterpie_r30", 
+        "nombre": "Caterpie", 
+        "tipo": "bicho", 
+        "captura": "Hierba alta (Mañana/Día). Poké Ball común. **Nota:** Capturad uno para tener a Butterfree pronto." 
+      },
+      { 
+        "id": "metapod_r30", 
+        "nombre": "Metapod (Caterpie)", 
+        "tipo": "bicho", 
+        "captura": "Hierba alta (Mañana/Día). Es más difícil de capturar que Caterpie porque solo usa 'Fortaleza'." 
+      },
+      { 
+        "id": "spinarak_r30", 
+        "nombre": "Spinarak", 
+        "tipo": "bicho/veneno", 
+        "captura": "Hierba alta (Noche). Poké Ball común. Exclusivo de HeartGold." 
+      },
+      { 
+        "id": "pidgey_r30", 
+        "nombre": "Pidgey", 
+        "tipo": "normal/volador", 
+        "captura": "Hierba alta (Mañana/Día). Si ya lo tenéis de la Ruta 29, no hace falta repetir." 
+      }
     ]
   }
 ]
