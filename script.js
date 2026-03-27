@@ -13,24 +13,22 @@ function renderApp(zonas) {
     container.innerHTML = '';
 
     zonas.forEach(zona => {
-        const section = document.createElement('div');
-        section.className = 'zona-container';
-
-        // Guía de la zona
-        const guiaHtml = zona.guia.map(item => `<li>${item}</li>`).join('');
-
-        // Filas de Pokémon
-        const filasHtml = zona.pokemons.map(p => {
-            const isCaptured = localStorage.getItem(p.id) === 'true';
-            const evolTexto = p.evol ? `<span class="evol-text">(${p.evol})</span>` : '';
-            
-            return `
-                <tr id="row-${p.id}" class="${isCaptured ? 'is-captured' : ''}">
-                    <td><strong>${p.nombre}</strong>${evolTexto}</td>
-                    <td><span class="tipo-badge tipo-${p.tipo}">${p.tipo.substring(0,3)}</span></td>
-                    <td>${p.captura}</td>
-                    <td><input type="checkbox" id="${p.id}" ${isCaptured ? 'checked' : ''} onchange="toggleCapture('${p.id}')"></td>
-                </tr>
+        const tiposHtml = p.tipo.split('/').map(t => {
+            const tipoLimpio = t.trim().toLowerCase();
+            // Tomamos las 3 primeras letras para el texto del badge (ej: VOL, NOR, VEN)
+            const iniciales = tipoLimpio.substring(0, 3).toUpperCase();
+            return `<span class="tipo-badge tipo-${tipoLimpio}">${iniciales}</span>`;
+        }).join(' ');
+        
+        return `
+            <tr id="row-${p.id}" class="${isCaptured ? 'is-captured' : ''}">
+                <td>
+                    <strong>${p.nombre}</strong>
+                    ${p.evol ? `<span class="evol-text">(${p.evol})</span>` : ''}
+                </td>
+                <td>${tiposHtml}</td> <td>${p.captura}</td>
+                <td><input type="checkbox" id="${p.id}" ${isCaptured ? 'checked' : ''} onchange="toggleCapture('${p.id}')"></td>
+            </tr>
             `;
         }).join('');
 
