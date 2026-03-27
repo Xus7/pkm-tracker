@@ -93,4 +93,68 @@
       }
     ]
   }
+  {
+    "id": "ruta-31",
+    "nombre": "🌸 Ruta 31",
+    "guia": [
+      "Esta ruta conecta con la Cueva Oscura y Ciudad Malva.",
+      "**Objetos:** Hablad con el hombre cerca de la entrada de la cueva, os dará la **MT70 (Destello)** si habéis pasado por la Torre Bellsprout.",
+      "Aquí veréis muchas flores. Es un buen lugar para usar la Cesta de Bayas."
+    ],
+    "pokemons": [
+      { 
+        "id": "bellsprout_r31", 
+        "nombre": "Bellsprout", 
+        "tipo": "planta/veneno", 
+        "captura": "Hierba alta (Todo el día). Poké Ball común. ¡Capturad uno! Un niño en Ciudad Malva os lo cambiará por un Onix." 
+      },
+      { 
+        "id": "weedle_r31", 
+        "nombre": "Weedle", 
+        "tipo": "bicho/veneno", 
+        "captura": "Hierba alta (Todo el día). Poké Ball común. Evoluciona muy rápido." 
+      },
+      { 
+        "id": "kakuna_r31", 
+        "nombre": "Kakuna (Weedle)", 
+        "tipo": "bicho/veneno", 
+        "captura": "Hierba alta (Mañana/Día). Usa 'Fortaleza', ten paciencia." 
+      },
+      { 
+        "id": "pidgey_r31", 
+        "nombre": "Pidgey", 
+        "tipo": "normal/volador", 
+        "captura": "Hierba alta (Mañana/Día). Poké Ball común." 
+      }
+    ]
+  },
+  {
+    "id": "cueva-oscura",
+    "nombre": "🦇 Cueva Oscura (Entrada Ruta 31)",
+    "guia": [
+      "¡Cuidado, está muy oscuro! Necesitaréis la habilidad **Destello** (Flash) para ver bien, aunque podéis explorar la entrada sin ella.",
+      "**Consejo:** Los Pokémon aquí son tipo Roca. Si elegisteis a Totodile, les ganaréis fácil. Si elegisteis a Cyndaquil, ¡tened cuidado!",
+      "Podéis encontrar la **Poción Especial** si exploráis a fondo los rincones."
+    ],
+    "pokemons": [
+      { 
+        "id": "geodude_coscura", 
+        "nombre": "Geodude", 
+        "tipo": "roca/tierra", 
+        "captura": "Caminando. Usa Poké Ball común. Es muy resistente a los ataques físicos." 
+      },
+      { 
+        "id": "zubat_coscura", 
+        "nombre": "Zubat", 
+        "tipo": "veneno/volador", 
+        "captura": "Caminando (Todo el día, pero más común de noche). Poké Ball común." 
+      },
+      { 
+        "id": "dunsparce_coscura", 
+        "nombre": "Dunsparce", 
+        "tipo": "normal", 
+        "captura": "Caminando. Es MUY raro (1% de aparición). Si lo encontráis, ¡usad una Poké Ball rápido porque es una joya para coleccionistas!" 
+      }
+    ]
+  }
 ]
