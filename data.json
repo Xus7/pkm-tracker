@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ruta-29",
+    "nombre": "📍 Ruta 29",
+    "guia": [
+      "Tu madre te dará el Pokégear.",
+      "Eco/Lira te darán 5 Poké Balls.",
+      "Busca a Tosca los Martes (objeto Pañuelo Seda)."
+    ],
+    "pokemons": [
+      { "id": "pidgey_29", "nombre": "Pidgey", "tipo": "normal", "captura": "Hierba (Día/Mañana)." },
+      { "id": "sentret_29", "nombre": "Sentret", "tipo": "normal", "captura": "Hierba (Día/Mañana)." },
+      { "id": "hoothoot_29", "nombre": "Hoothoot", "tipo": "normal", "captura": "Hierba (Noche)." },
+      { "id": "rattata_29", "nombre": "Rattata", "tipo": "normal", "captura": "Hierba (Todo el día)." }
+    ]
+  },
+  {
+    "id": "ruta-30",
+    "nombre": "📍 Ruta 30",
+    "guia": [
+      "Sr. Pokémon te da el Huevo Misterioso.",
+      "El Prof. Oak te entrega la Pokédex.",
+      "Recoge la Cesta de Bayas en la casa."
+    ],
+    "pokemons": [
+      { "id": "caterpie_30", "nombre": "Caterpie", "tipo": "bicho", "captura": "Hierba (Mañana/Día). Exclusivo HG." },
+      { "id": "metapod_30", "nombre": "Metapod", "evol": "Caterpie", "tipo": "bicho", "captura": "Hierba (Mañana/Día). Exclusivo HG." },
+      { "id": "spinarak_30", "nombre": "Spinarak", "tipo": "veneno", "captura": "Hierba (Noche). Exclusivo HG." },
+      { "id": "weedle_30", "nombre": "Weedle", "tipo": "veneno", "captura": "Transferencia o Parque Nacional (Sino, no sale en HG)." }
+    ]
+  }
+]
