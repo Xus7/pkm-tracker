@@ -74,13 +74,36 @@ td { padding: 12px 5px; border-bottom: 1px solid #eee; }
     text-transform: uppercase;
 }
 
-/* Colores de Tipos */
+/* Colores de Tipos Pokémon Oficiales */
 .tipo-normal { background: #A8A878; }
 .tipo-fuego { background: #F08030; }
 .tipo-agua { background: #6890F0; }
 .tipo-planta { background: #78C850; }
-.tipo-bicho { background: #A8B820; }
+.tipo-electrico { background: #F8D030; }
+.tipo-hielo { background: #98D8D8; }
+.tipo-lucha { background: #C03028; }
 .tipo-veneno { background: #A040A0; }
+.tipo-tierra { background: #E0C068; }
+.tipo-volador { background: #A890F0; }
+.tipo-psiquico { background: #F85888; }
+.tipo-bicho { background: #A8B820; }
+.tipo-roca { background: #B8A038; }
+.tipo-fantasma { background: #705898; }
+.tipo-dragon { background: #7038F8; }
+.tipo-siniestro { background: #705848; }
+.tipo-acero { background: #B8B8D0; }
+.tipo-hada { background: #EE99AC; }
+
+/* Ajuste para que los tags no se peguen si hay dos */
+.tipo-badge {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
 
 input[type="checkbox"] {
     width: 22px;
