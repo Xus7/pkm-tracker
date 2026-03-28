@@ -5,9 +5,8 @@
     "guia": [
       "¡El inicio de la aventura! Ve al laboratorio del Prof. Elm para elegir vuestro primer compañero.",
       "**Consejo:** Chikorita es un reto (difícil), Cyndaquil es equilibrado y Totodile es muy fuerte al principio.",
-      "Hablad con vuestra madre después de recibir el Pokémon para que os guarde parte del dinero que ganéis. ¡A veces os comprará objetos raros con esos ahorros!",
-      "Revisad el PC de vuestra habitación para sacar una **Poción** gratis.",
-      "Pulsad 'A' frente a vuestro Pokémon para ver cómo se siente. ¡A los niños les encanta ver sus reacciones!"
+      "Hablad con vuestra madre para que os guarde dinero. ¡A veces compra objetos útiles!",
+      "Pulsad 'A' frente a vuestro Pokémon para ver si está feliz. ¡Os seguirá a todas partes!"
     ],
     "pokemons": []
   },
@@ -15,45 +14,23 @@
     "id": "ruta-29",
     "nombre": "🌿 Ruta 29",
     "guia": [
-      "Esta ruta conecta el pueblo con Ciudad Cerezo.",
-      "**Mecánica de captura:** No intentéis lanzar la Poké Ball nada más ver al Pokémon. Primero hay que quitarle vida (que la barra esté en amarillo o rojo) para que sea más fácil.",
-      "**Día y Noche:** Los Pokémon cambian según la hora de la vida real. Pidgey sale de día y Hoothoot de noche.",
-      "Buscad a **Tosca** los Martes. Es una chica que aparece cerca de la hierba y os regalará un **Pañuelo Seda** (potencia ataques tipo Normal)."
+      "**Mecánica de captura:** Hay que debilitar al Pokémon (barra en amarillo o rojo) antes de lanzar la Poké Ball.",
+      "**Día y Noche:** Pidgey sale de día y Hoothoot de noche.",
+      "Buscad a **Tosca** los Martes cerca de la hierba; os dará un **Pañuelo Seda** para potenciar ataques normales."
     ],
     "pokemons": [
-      { 
-        "id": "pidgey_r29", 
-        "nombre": "Pidgey", 
-        "tipo": "normal/volador", 
-        "captura": "Hierba alta (Mañana/Día). Usa Poké Ball común. No requiere habilidades." 
-      },
-      { 
-        "id": "rattata_r29", 
-        "nombre": "Rattata", 
-        "tipo": "normal", 
-        "captura": "Hierba alta (Todo el día). Usa Poké Ball común. ¡Es muy rápido!" 
-      },
-      { 
-        "id": "sentret_r29", 
-        "nombre": "Sentret", 
-        "tipo": "normal", 
-        "captura": "Hierba alta (Mañana/Día). Poké Ball común. Es el Pokémon ideal para aprender a usar 'Corte' más adelante." 
-      },
-      { 
-        "id": "hoothoot_r29", 
-        "nombre": "Hoothoot", 
-        "tipo": "normal/volador", 
-        "captura": "Hierba alta (Noche). Poké Ball común. Evoluciona a Noctowl, un búho muy protector." 
-      }
+      { "id": "pidgey_r29", "nombre": "Pidgey", "tipo": "normal/volador", "captura": "Hierba (Mañana/Día). Poké Ball común." },
+      { "id": "rattata_r29", "nombre": "Rattata", "tipo": "normal", "captura": "Hierba (Todo el día). Poké Ball común." },
+      { "id": "sentret_r29", "nombre": "Sentret", "tipo": "normal", "captura": "Hierba (Mañana/Día). Poké Ball común." },
+      { "id": "hoothoot_r29", "nombre": "Hoothoot", "tipo": "normal/volador", "captura": "Hierba (Noche). Poké Ball común." }
     ]
   },
   {
     "id": "ciudad-cerezo",
     "nombre": "🍒 Ciudad Cerezo",
     "guia": [
-      "Hablad con el anciano de la entrada. Os dará un tour por la ciudad y, lo más importante: ¡las **Deportivas**! Ahora podréis correr manteniendo el botón B.",
-      "En el Centro Pokémon podéis curar a vuestro equipo gratis. Enseñadle a vuestro hijo que la enfermera Joy es vuestra mejor aliada.",
-      "No hay Pokémon salvajes aquí todavía (hasta que tengáis la caña de pescar), pero es un buen lugar para guardar la partida."
+      "Hablad con el abuelo guía para obtener las **Deportivas**. ¡Mantened el botón B para correr!",
+      "En el Centro Pokémon podéis curar a vuestro equipo siempre que estéis cansados."
     ],
     "pokemons": []
   },
@@ -61,100 +38,64 @@
     "id": "ruta-30",
     "nombre": "🌳 Ruta 30",
     "guia": [
-      "Aquí vive el Sr. Pokémon. Os entregará el **Huevo Misterioso** que debéis llevar al Prof. Elm.",
-      "El Prof. Oak aparecerá y os dará vuestra **Pokédex**. ¡Aquí empieza el reto de capturarlos a todos!",
-      "**Bayas:** Encontraréis arbustos con frutos. Recogedlos para curar estados (como el veneno) sin gastar dinero.",
-      "En esta ruta hay un bloqueo: no podréis pasar a la Ruta 31 hasta que hayáis vuelto al laboratorio y derrotado al rival (el chico pelirrojo)."
+      "El Sr. Pokémon os dará el **Huevo Misterioso** y el Prof. Oak la **Pokédex**.",
+      "**Bayas:** Recoged los frutos de los árboles. La Baya Aranja cura vida y la Baya Meloc cura el veneno."
     ],
     "pokemons": [
-      { 
-        "id": "caterpie_r30", 
-        "nombre": "Caterpie", 
-        "tipo": "bicho", 
-        "captura": "Hierba alta (Mañana/Día). Poké Ball común. **Nota:** Capturad uno para tener a Butterfree pronto." 
-      },
-      { 
-        "id": "metapod_r30", 
-        "nombre": "Metapod (Caterpie)", 
-        "tipo": "bicho", 
-        "captura": "Hierba alta (Mañana/Día). Es más difícil de capturar que Caterpie porque solo usa 'Fortaleza'." 
-      },
-      { 
-        "id": "spinarak_r30", 
-        "nombre": "Spinarak", 
-        "tipo": "bicho/veneno", 
-        "captura": "Hierba alta (Noche). Poké Ball común. Exclusivo de HeartGold." 
-      },
-      { 
-        "id": "pidgey_r30", 
-        "nombre": "Pidgey", 
-        "tipo": "normal/volador", 
-        "captura": "Hierba alta (Mañana/Día). Si ya lo tenéis de la Ruta 29, no hace falta repetir." 
-      }
+      { "id": "caterpie_r30", "nombre": "Caterpie", "tipo": "bicho", "captura": "Hierba (Día). Poké Ball común. Exclusivo HG." },
+      { "id": "metapod_r30", "nombre": "Metapod (Caterpie)", "tipo": "bicho", "captura": "Hierba (Día). Poké Ball común. Solo usa Fortaleza." },
+      { "id": "spinarak_r30", "nombre": "Spinarak", "tipo": "bicho/veneno", "captura": "Hierba (Noche). Poké Ball común. Exclusivo HG." },
+      { "id": "pidgey_r30", "nombre": "Pidgey", "tipo": "normal/volador", "captura": "Hierba (Día). Poké Ball común." }
     ]
   },
   {
     "id": "ruta-31",
     "nombre": "🌸 Ruta 31",
     "guia": [
-      "Esta ruta conecta con la Cueva Oscura y Ciudad Malva.",
-      "**Objetos:** Hablad con el hombre cerca de la entrada de la cueva, os dará la **MT70 (Destello)** si habéis pasado por la Torre Bellsprout.",
-      "Aquí veréis muchas flores. Es un buen lugar para usar la Cesta de Bayas."
+      "Conecta con la Cueva Oscura.",
+      "**Importante:** Un hombre os dará la **MT70 (Destello)** si habéis superado la Torre Bellsprout."
     ],
     "pokemons": [
-      { 
-        "id": "bellsprout_r31", 
-        "nombre": "Bellsprout", 
-        "tipo": "planta/veneno", 
-        "captura": "Hierba alta (Todo el día). Poké Ball común. ¡Capturad uno! Un niño en Ciudad Malva os lo cambiará por un Onix." 
-      },
-      { 
-        "id": "weedle_r31", 
-        "nombre": "Weedle", 
-        "tipo": "bicho/veneno", 
-        "captura": "Hierba alta (Todo el día). Poké Ball común. Evoluciona muy rápido." 
-      },
-      { 
-        "id": "kakuna_r31", 
-        "nombre": "Kakuna (Weedle)", 
-        "tipo": "bicho/veneno", 
-        "captura": "Hierba alta (Mañana/Día). Usa 'Fortaleza', ten paciencia." 
-      },
-      { 
-        "id": "pidgey_r31", 
-        "nombre": "Pidgey", 
-        "tipo": "normal/volador", 
-        "captura": "Hierba alta (Mañana/Día). Poké Ball común." 
-      }
+      { "id": "bellsprout_r31", "nombre": "Bellsprout", "tipo": "planta/veneno", "captura": "Hierba (Todo el día). Poké Ball común. ¡Atrapad uno para un intercambio secreto!" },
+      { "id": "weedle_r31", "nombre": "Weedle", "tipo": "bicho/veneno", "captura": "Hierba (Día). Poké Ball común." },
+      { "id": "kakuna_r31", "nombre": "Kakuna (Weedle)", "tipo": "bicho/veneno", "captura": "Hierba (Día). Poké Ball común." }
     ]
   },
   {
     "id": "cueva-oscura",
-    "nombre": "🦇 Cueva Oscura (Entrada Ruta 31)",
+    "nombre": "🦇 Cueva Oscura",
     "guia": [
-      "¡Cuidado, está muy oscuro! Necesitaréis la habilidad **Destello** (Flash) para ver bien, aunque podéis explorar la entrada sin ella.",
-      "**Consejo:** Los Pokémon aquí son tipo Roca. Si elegisteis a Totodile, les ganaréis fácil. Si elegisteis a Cyndaquil, ¡tened cuidado!",
-      "Podéis encontrar la **Poción Especial** si exploráis a fondo los rincones."
+      "Necesitaréis la habilidad **Destello** para ver, aunque podéis explorar la entrada a oscuras.",
+      "**Consejo:** Los Geodude son fuertes contra ataques normales, usad ataques de agua o planta."
     ],
     "pokemons": [
-      { 
-        "id": "geodude_coscura", 
-        "nombre": "Geodude", 
-        "tipo": "roca/tierra", 
-        "captura": "Caminando. Usa Poké Ball común. Es muy resistente a los ataques físicos." 
-      },
-      { 
-        "id": "zubat_coscura", 
-        "nombre": "Zubat", 
-        "tipo": "veneno/volador", 
-        "captura": "Caminando (Todo el día, pero más común de noche). Poké Ball común." 
-      },
-      { 
-        "id": "dunsparce_coscura", 
-        "nombre": "Dunsparce", 
-        "tipo": "normal", 
-        "captura": "Caminando. Es MUY raro (1% de aparición). Si lo encontráis, ¡usad una Poké Ball rápido porque es una joya para coleccionistas!" 
-      }
+      { "id": "geodude_coscura", "nombre": "Geodude", "tipo": "roca/tierra", "captura": "Caminando. Poké Ball común." },
+      { "id": "zubat_coscura", "nombre": "Zubat", "tipo": "veneno/volador", "captura": "Caminando. Poké Ball común." },
+      { "id": "dunsparce_coscura", "nombre": "Dunsparce", "tipo": "normal", "captura": "Caminando. Muy raro (1%). ¡Si sale, no lo dejéis escapar!" }
+    ]
+  },
+  {
+    "id": "ciudad-malva",
+    "nombre": "🟣 Ciudad Malva",
+    "guia": [
+      "**Gimnasio de Pegaso:** El primer reto. Usad tipos Roca o Eléctrico. Si ganáis, obtenéis la Medalla Céfiro.",
+      "**Intercambio:** En una casa, un niño te cambia un **Onix** (llamado Rocky) por un Bellsprout. ¡Onix es gigante y genial para los niños!",
+      "**Escuela Pokémon:** Leed la pizarra para aprender sobre los estados (parálisis, sueño, etc.).",
+      "**Huevo Togepi:** Tras ganar al líder, el ayudante del profesor te dará un huevo en la Tienda Pokémon. ¡Llevalo en el equipo para que nazca!"
+    ],
+    "pokemons": []
+  },
+  {
+    "id": "torre-bellsprout",
+    "nombre": "🗼 Torre Bellsprout",
+    "guia": [
+      "Entrad de noche para ver a los Gastly, ¡son fantasmas!",
+      "Llegad hasta el último piso para luchar contra el monje sabio. Al vencerle, os dará la **MO05 (Destello)**.",
+      "**Curiosidad:** El pilar central de la torre se mueve como el cuello de un Bellsprout."
+    ],
+    "pokemons": [
+      { "id": "rattata_tbell", "nombre": "Rattata", "tipo": "normal", "captura": "Caminando (Día). Poké Ball común." },
+      { "id": "gastly_tbell", "nombre": "Gastly", "tipo": "fantasma/veneno", "captura": "Caminando (Noche). Poké Ball común. Es inmune a ataques tipo Normal." }
     ]
   }
 ]
