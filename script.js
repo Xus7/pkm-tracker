@@ -46,7 +46,7 @@ function renderApp(zonas) {
             </div>
         `;
         container.appendChild(section);
-    });
+    }));
 }
 
 function toggleZona(el) {
